@@ -6,6 +6,7 @@ body {
   background-color: Canvas;
   color: CanvasText;
   color-scheme: light dark;
+  font-family: 'Roboto', sans-serif;
 }
 
 .skip-link {
@@ -35,6 +36,19 @@ h4,
 h5,
 h6 {
   font-family: 'Bebas Neue', cursive;
+}
+
+.font-bebas {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.hero-section {
+  position: relative;
+  /* isolation: isolate; */
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 500 500' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%233EB8AB' d='M420.7,315.1c-16.9,63.3-67.9,120.3-131.3,135.4c-63.4,15.1-139.2-11.6-192.2-61.8C44.2,338.5,13.9,265,26.8,204.9C39.7,144.8,95.8,98.2,159.7,83.1c63.9-15.1,135.5,1.3,183.5,43.1C391.2,167.9,437.6,251.9,420.7,315.1z'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90% auto;
 }
 
 @media (prefers-color-scheme: dark) {

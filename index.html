@@ -6,9 +6,9 @@
 		<title>Evolution Conseil - Solutions pour entreprises</title>
 		<link href="css/styles.css" rel="stylesheet" />
 	</head>
-	<body class="p-8">
+	<body>
 		<a href="#main" class="skip-link">Aller au contenu principal</a>
-		<header class="flex justify-between items-start fixed">
+		<header class="fixed top-0 flex justify-between w-full bg-white/90 backdrop-blur-sm border-b border-zinc-200 px-8 py-6 z-10">
 			<div>
 				<h1 class="text-5xl">Evolution Conseil</h1>
 				<p class="text-lg">Accompagnement stratégique pour entreprises innovantes</p>
@@ -16,98 +16,129 @@
 			<nav class="mt-4">
 				<ul class="flex gap-4 font-bold">
 					<li><a href="#">Accueil</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">À-propos</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#">À propos</a></li>
 					<li><a href="#">Contact</a></li>
 				</ul>
 			</nav>
 		</header>
-		<main class="mt-16 h-screen" id="main" tabindex="-1">
-			<h2 tabindex="0" class="text-3xl">Transformez votre entreprise</h2>
-			<p class="mt-4" tabindex="0">
-				Depuis 2015, Evolution Conseil accompagne les entreprises dans leur transformation digitale et organisationnelle. Notre approche sur mesure combine expertise technique et vision stratégique pour répondre aux défis de demain.
-			</p>
-			<p class="mt-4 h-10 flex flex-col gap-4">
-				Dans un monde en constante évolution, la capacité d'adaptation est devenue un avantage concurrentiel majeur. Notre équipe d'experts vous accompagne à chaque étape de votre transformation, de la définition de la stratégie à sa mise en œuvre opérationnelle.
-				<a
-					href="#contact"
-					class="text-teal-500"
-				>
-					Découvrez comment nous pouvons vous accompagner
-				</a>
-			</p>
-			<h3 class="mt-20 text-3xl" tabindex="0">Nos domaines d'expertise</h3>
-			<div class="grid grid-cols-3 gap-4 mt-8">
-				<article class="card">
-					<img src="assets/work1.avif" class="card-image" alt="" />
-					<div class="card-content">
-						<p class="card-text">
-							Optimisez vos performances grâce à notre expertise en analyse de données. Notre équipe transforme vos données brutes en insights stratégiques, vous permettant de prendre des décisions éclairées pour votre entreprise.
+		<main class="h-screen" id="main" tabindex="-1">
+			<section class="flex gap-8 pt-40 pb-32 px-8 mt-8 h-screen">
+				<div class="max-w-7xl">
+					<h2 tabindex="0" class="text-5xl font-bold tracking-tight mb-8">
+						<span class="text-teal-600">Transformez</span> votre entreprise
+					</h2>
+					<div class="max-w-3xl">
+						<p class="leading-relaxed text-zinc-200 mb-6">
+							Depuis 2015, Evolution Conseil accompagne les entreprises dans leur transformation digitale et organisationnelle. Notre approche sur mesure combine expertise technique et vision stratégique pour répondre aux défis de demain.
 						</p>
-						<a href="#" class="card-link">
-							En savoir plus <span class="sr-only">sur nos services d'analyse de données et business intelligence</span><span aria-hidden="true">→</span> 
+						<p class="leading-relaxed text-zinc-200 mb-8">
+							Dans un monde en constante évolution, la capacité d'adaptation est devenue un avantage concurrentiel majeur. Notre équipe d'experts vous accompagne à chaque étape de votre transformation.
+						</p>
+						<a href="#services" class="inline-flex items-center px-6 py-3 mt-12 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition-colors">
+							Découvrez nos solutions
+							<svg aria-hidden="true" class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+							</svg>
 						</a>
 					</div>
-				</article>
+				</div>
+				<img src="assets/work3.avif" class="h-96 rounded object-cover object-center" alt="" />
+				<div class="hero-section" tabindex="-1"></div>
+			</section>
 
-				<article class="card">
-					<img src="assets/work2.avif" class="card-image" alt="" />
-					<div class="card-content">
-						<p class="card-text">
-							Bénéficiez de notre accompagnement en stratégie d'entreprise. Nos consultants expérimentés vous guident dans vos choix stratégiques et facilitent votre transformation organisationnelle.
-						</p>
-						<a href="#" class="card-link">
-							En savoir plus <span class="sr-only">sur notre accompagnement en stratégie d'entreprise</span><span aria-hidden="true">→</span>						</a>
+			<section class="px-8">
+				<div class="grid grid-cols-3 gap-8 max-w-7xl mx-auto text-center">
+					<div>
+						<div class="font-bebas text-4xl font-bold text-teal-500 mb-2">15+</div>
+						<p class="text-zinc-200">Années d'expertise</p>
 					</div>
-				</article>
+					<div>
+						<div class="font-bebas text-4xl font-bold text-teal-500 mb-2">500+</div>
+						<p class="text-zinc-200">Projets réalisés</p>
+					</div>
+					<div>
+						<div class="font-bebas text-4xl font-bold text-teal-500 mb-2">98%</div>
+						<p class="text-zinc-200">Clients satisfaits</p>
+					</div>
+				</div>
+			</section>
 
-				<article class="card">
-					<img src="assets/work3.avif" class="card-image" alt="" />
-					<div class="card-content">
-						<p class="card-text">
-							Accélérez votre transformation digitale avec nos solutions sur mesure. De la conception à l'implémentation, nous vous accompagnons dans la modernisation de vos outils et processus.
-						</p>
-						<a href="#" class="card-link">
-							En savoir plus <span class="sr-only">sur nos solutions de transformation digitale</span><span aria-hidden="true">→</span>						</a>
-					</div>
-				</article>
 
-				<article class="card">
-					<img src="assets/work4.avif" class="card-image" alt="" />
-					<div class="card-content">
-						<p class="card-text">
-							Développez votre agilité organisationnelle avec nos programmes adaptés. Nous vous aidons à mettre en place des méthodes de travail innovantes pour plus d'efficacité.
-						</p>
-						<a href="#" class="card-link">
-							En savoir plus <span class="sr-only">sur nos programmes d'agilité organisationnelle</span><span aria-hidden="true">→</span>						</a>
-					</div>
-				</article>
+			<section id="services" class="py-32 px-8">
+				<h3 class="mt-20 text-3xl" tabindex="0">Nos domaines d'expertise</h3>
+				<div class="grid grid-cols-3 gap-4 mt-8">
+					<article class="card">
+						<img src="assets/work1.avif" class="card-image" alt="" />
+						<div class="card-content">
+							<p class="card-text">
+								Optimisez vos performances grâce à notre expertise en analyse de données. Notre équipe transforme vos données brutes en insights stratégiques, vous permettant de prendre des décisions éclairées pour votre entreprise.
+							</p>
+							<a href="#" class="card-link">
+								En savoir plus <span class="sr-only">sur nos services d'analyse de données et business intelligence</span><span aria-hidden="true">→</span> 
+							</a>
+						</div>
+					</article>
 
-				<article class="card">
-					<img src="assets/work5.avif" class="card-image" alt="" />
-					<div class="card-content">
-						<p class="card-text">
-							Améliorez l'expérience de vos collaborateurs grâce à nos solutions de flex office. Nous repensons vos espaces de travail pour plus de bien-être et de productivité.
-						</p>
-						<a href="#" class="card-link">
-							En savoir plus <span class="sr-only">sur nos solutions d'aménagement en flex office</span><span aria-hidden="true">→</span>						</a>
-					</div>
-				</article>
+					<article class="card">
+						<img src="assets/work2.avif" class="card-image" alt="" />
+						<div class="card-content">
+							<p class="card-text">
+								Bénéficiez de notre accompagnement en stratégie d'entreprise. Nos consultants expérimentés vous guident dans vos choix stratégiques et facilitent votre transformation organisationnelle.
+							</p>
+							<a href="#" class="card-link">
+								En savoir plus <span class="sr-only">sur notre accompagnement en stratégie d'entreprise</span><span aria-hidden="true">→</span>						</a>
+						</div>
+					</article>
 
-				<article class="card">
-					<img src="assets/work6.avif" class="card-image" alt="" />
-					<div class="card-content">
-						<p class="card-text">
-							Optimisez vos processus documentaires avec notre expertise en gestion de l'information. Notre approche personnalisée vous permet de gagner en efficacité administrative.
-						</p>
-						<a href="#" class="card-link">
-							En savoir plus <span class="sr-only">sur l'optimisation de vos processus documentaires</span><span aria-hidden="true">→</span>							</a>
-					</div>
-				</article>
-			</div>
+					<article class="card">
+						<img src="assets/work3.avif" class="card-image" alt="" />
+						<div class="card-content">
+							<p class="card-text">
+								Accélérez votre transformation digitale avec nos solutions sur mesure. De la conception à l'implémentation, nous vous accompagnons dans la modernisation de vos outils et processus.
+							</p>
+							<a href="#" class="card-link">
+								En savoir plus <span class="sr-only">sur nos solutions de transformation digitale</span><span aria-hidden="true">→</span>						</a>
+						</div>
+					</article>
+
+					<article class="card">
+						<img src="assets/work4.avif" class="card-image" alt="" />
+						<div class="card-content">
+							<p class="card-text">
+								Développez votre agilité organisationnelle avec nos programmes adaptés. Nous vous aidons à mettre en place des méthodes de travail innovantes pour plus d'efficacité.
+							</p>
+							<a href="#" class="card-link">
+								En savoir plus <span class="sr-only">sur nos programmes d'agilité organisationnelle</span><span aria-hidden="true">→</span>						</a>
+						</div>
+					</article>
+
+					<article class="card">
+						<img src="assets/work5.avif" class="card-image" alt="" />
+						<div class="card-content">
+							<p class="card-text">
+								Améliorez l'expérience de vos collaborateurs grâce à nos solutions de flex office. Nous repensons vos espaces de travail pour plus de bien-être et de productivité.
+							</p>
+							<a href="#" class="card-link">
+								En savoir plus <span class="sr-only">sur nos solutions d'aménagement en flex office</span><span aria-hidden="true">→</span>						</a>
+						</div>
+					</article>
+
+					<article class="card">
+						<img src="assets/work6.avif" class="card-image" alt="" />
+						<div class="card-content">
+							<p class="card-text">
+								Optimisez vos processus documentaires avec notre expertise en gestion de l'information. Notre approche personnalisée vous permet de gagner en efficacité administrative.
+							</p>
+							<a href="#" class="card-link">
+								En savoir plus <span class="sr-only">sur l'optimisation de vos processus documentaires</span><span aria-hidden="true">→</span>							</a>
+						</div>
+					</article>
+				</div>
+			</section>
 		</main>
 
-		<footer class="flex justify-between items-end gap-4 mt-20">
+		<footer class="flex justify-between items-end gap-4 mt-20 p-8">
 			<div class="flex flex-col gap-4">
 				<a href="#">Retour en haut de page</a>
 				<a href="#">Nos références</a>
