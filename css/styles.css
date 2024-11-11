@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import './atomic.css';
+@import './card.css';
+
+body {
+  background-color: Canvas;
+  color: CanvasText;
+  color-scheme: light dark;
+}
+
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: -100px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  text-align: center;
+  background-color: transparent;
+  color: transparent;
+}
+
+.skip-link:focus {
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  overflow: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Bebas Neue', cursive;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1a1a1a;
+    color: #ddd;
+  }
+
+  .card {
+    background: #242424;
+  }
+
+  .card-text {
+    color: #ddd;
+  }
+
+  .card-link {
+    color: #38b2ac;
+    transition: color 0.2s;
+    text-decoration: underline;
+  }
+}
