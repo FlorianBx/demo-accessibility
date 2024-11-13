@@ -17,16 +17,19 @@ body {
   height: 1px;
   overflow: hidden;
   text-align: center;
-  background-color: transparent;
-  color: transparent;
+  color: white;
+  background-color: #2b2b2b;
+  padding: 10px 20px;
+  border-radius: 5px;
 }
 
 .skip-link:focus {
-  top: 0;
-  left: 0;
+  top: 140px;
+  left: 20px;
   width: auto;
   height: auto;
   overflow: auto;
+  z-index: 20;
 }
 
 h1,
@@ -49,6 +52,11 @@ h6 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 90% auto;
+}
+
+a:focus {
+  outline: 3px solid #2563eb;
+  outline-offset: 2px;
 }
 
 @media (prefers-color-scheme: dark) {
